@@ -1,8 +1,3 @@
-t = eval(input())
+a = eval(input())
 b = eval(input())
-if t:
-	print(t)
-elif b:
-	print(b)
-else:
-	print("NO")
+print(a or b or "NO")
