@@ -13,3 +13,5 @@ for i in gener(v):
 		print(i)
 		break
 	j += 1
+else:
+	print('NO')
